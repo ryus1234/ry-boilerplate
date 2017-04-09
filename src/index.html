@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <title>Index</title>
+</head>
+<body>
+
+  <%- include('_Header.ejs') %>
+
+  <main>
+    <section>
+      <h1>Pages</h1>
+      <ul class="list-orderd">
+        <li>
+          <a href="/top.html">Top</a>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h1>Components</h1>
+      <ul class="list-orderd">
+        <li>
+          <a href="#Button">
+            Button
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="Button">
+      <h1>Button</h1>
+      <div>
+        <a href="#" class="btn">ボタン</a>
+        <div class="p-1"></div>
+        <a href="#" class="btn btn-pink">ボタン</a>
+        <div class="p-1"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <%- include('_Footer.ejs') %>
+
+  <script src="/js/vendor.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>
