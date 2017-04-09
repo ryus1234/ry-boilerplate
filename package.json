@@ -9,6 +9,7 @@
   "scripts": {
     "start": "yarn run clean; yarn run serve & yarn run watch",
     "lint": "eslint src",
+    "lint:css": "stylelint src/**/*.css",
     "build:js": "NODE_ENV=production webpack",
     "build:css": "postcss src/css/main.css -o public/css/main.css -m",
     "build:static": "cpx 'src/**/*.{png,jpg}' public",
@@ -59,6 +60,8 @@
     "postcss-nested": "^1.0.0",
     "postcss-simple-vars": "^3.0.0",
     "postcss-sorting": "^2.0.1",
+    "stylelint": "^7.10.1",
+    "stylelint-config-standard": "^16.0.0",
     "webpack": "^2.3.3"
   },
   "dependencies": {

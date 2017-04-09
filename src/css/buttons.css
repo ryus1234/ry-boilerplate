@@ -2,10 +2,10 @@
  Button Styles
 */
 
-.btn{
+.btn {
   box-sizing: border-box;
   background-color: #e6e6e6;
-  color: #666666;
+  color: #666;
   display: inline-block;
   font-weight: normal;
   line-height: 1;
@@ -13,9 +13,9 @@
   white-space: nowrap;
   vertical-align: middle;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   border: 1px solid transparent;
   padding: .5rem 1rem;
   font-size: 1.3rem;
@@ -23,18 +23,20 @@
   text-decoration: none;
 }
 
-.btn.disabled, .btn:disabled {
+.btn.disabled,
+.btn:disabled {
   cursor: not-allowed;
   opacity: .65;
 }
 
-.btn:active, .btn.active {
+.btn:active,
+.btn.active {
   background-image: none;
   text-decoration: none;
   border-bottom: 2px solid transparent;
   border-radius: 0;
   -webkit-transform: translate3d(0, 1px, 0);
-    transform: translate3d(0, 1px, 0);
+  transform: translate3d(0, 1px, 0);
 }
 
 a.btn.disabled,
@@ -42,42 +44,53 @@ fieldset[disabled] a.btn {
   pointer-events: none;
 }
 
-.btn:focus, .btn:hover {
+.btn:focus,
+.btn:hover {
   text-decoration: none;
 }
 
-.btn:focus, .btn.focus {
+.btn:focus,
+.btn.focus {
   outline: 0;
 }
 
 /* Size */
-.btn-l{
+.btn-l {
   width: 80%;
 }
-.btn-xl{
+
+.btn-xl {
   width: 100%;
 }
-.btn-m{
+
+.btn-m {
   width: 56.25%;
 }
+
 .btn-100 {
   width: 100%;
 }
+
 .btn-90 {
   width: 90%;
 }
+
 .btn-80 {
   width: 80%;
 }
+
 .btn-70 {
   width: 70%;
 }
+
 .btn-75 {
   width: 75%;
 }
+
 .btn-60 {
   width: 60%;
 }
+
 .btn-50 {
   width: 50%;
 }

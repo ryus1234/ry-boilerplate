@@ -1,4 +1,3 @@
-/* eslint "flowtype/require-valid-file-annotation": 0 */
 
 import React from 'react'
 import { render } from 'react-dom'
