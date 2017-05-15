@@ -23,10 +23,10 @@
     "watch": "npm-run-all -p watch:*",
     "serve": "http-server -a 0.0.0.0 -o -p 9000 public -c-1",
     "serve:production": "http-server -a 0.0.0.0 -o -p 9000 public -c-1",
-    "clean": "rimraf public & mkdirp public/css public/js public/img",
-    "deploy": "yarn run build & node ./deploy.js",
-    "deploy:css": "yarn run build:css & cpx 'public/css/main.css' deploy/css",
-    "deploy:js": "yarn run build:js & cpx 'public/js/*.js' deploy/js",
+    "clean": "rimraf public && mkdirp public/css public/js public/img",
+    "deploy": "yarn run build && node ./deploy.js",
+    "deploy:css": "yarn run build:css && cpx 'public/css/main.css' deploy/css",
+    "deploy:js": "yarn run build:js && cpx 'public/js/*.js' deploy/js",
     "test:ci": "npm-run-all typecheck lint lint:css"
   },
   "devDependencies": {
